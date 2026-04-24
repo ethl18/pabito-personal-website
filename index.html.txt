@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ethel Herna C. Pabito - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #007ACC;
+            padding-bottom: 5px;
+            color: #007ACC;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .contact-info p {
+            margin: 4px 0;
+        }
+        .skills-list, .experience-list, .education-list, .seminars-list {
+            margin-left: 20px;
+        }
+        footer {
+            text-align:center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 50px;
+        }
+        a {
+            color: #007ACC;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .references-block {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Replace src with your actual photo file path or URL -->
+        <img src="your-photo.jpg" alt="Ethel Herna C. Pabito" />
+        <h1>ETHEL HERNA C. PABITO</h1>
+        <p>Aspiring Computer Engineer | Embedded Systems Enthusiast</p>
+    </header>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p><strong>Address:</strong> Brgy. Igbalangao, Bugasong, Antique</p>
+        <p><strong>Phone:</strong> 09663447178</p>
+        <p><strong>Email:</strong> <a href="mailto:ehpabito@usa.edu.ph">ehpabito@usa.edu.ph</a></p>
+    </section>
+
+    <section class="career-objective">
+        <h2>Career Objective</h2>
+        <p>
+            Dedicated to Computer Engineering to apply and expand my knowledge in hardware design, embedded systems, and project management.
+            I am eager to contribute to projects' hands-on development, management, testing, and troubleshooting while gaining valuable practical experience in a professional and dynamic engineering environment.
+        </p>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <ul class="education-list">
+            <li><strong>Bachelor of Science in Computer Engineering</strong> (2022 - Present)<br />
+                Major in Embedded System<br />
+                University of San Agustin, Iloilo City
+            </li>
+            <li><strong>Senior High School - STEM Strand</strong> (2019 - 2022)<br />
+                University of San Agustin, Iloilo City
+            </li>
+            <li><strong>Junior High School</strong> (2015 - 2019)<br />
+                Pax Catholic Academy, Diocese of Bacolod Inc., La Carlota City
+            </li>
+            <li><strong>Elementary School</strong> (2009 - 2015)<br />
+                Nelia Boston Maghari Memorial School, Brgy. Igbalangao, Bugasong, Antique
+            </li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h2>Skills and Abilities</h2>
+        <ul class="skills-list">
+            <li>Computer literate</li>
+            <li>Experience with Microsoft Tools, AI Tools, and Coding</li>
+            <li>Capable of adaptability, teamwork, and problem-solving situations</li>
+            <li>Resilience in work</li>
+            <li>Time oriented</li>
+            <li>Can work efficiently without supervision</li>
+            <li>Adequate interpersonal and intrapersonal skills</li>
+            <li>Multilingual (English, Tagalog, Karay-a, Hiligaynon, and Bisaya)</li>
+            <li>Arduino and Networking Fundamentals</li>
+            <li>Project Management</li>
+        </ul>
+    </section>
+
+    <section class="experience">
+        <h2>Experience</h2>
+        <ul class="experience-list">
+            <li><strong>Freelance Layout Artist</strong> (2019 - Present)</li>
+            <li><strong>Treasurer</strong>, Augustinian Computer Engineering Society (2024 - 2025)</li>
+            <li><strong>Project Lead</strong>, Technovative: Arduino Microcontroller Workshop (2023)</li>
+            <li><strong>Assistant Secretary</strong>, Augustinian Computer Engineering Society (2023 - 2024)</li>
+            <li><strong>Social Media Manager (TikTok)</strong>, CPE Publication (2023 - 2024)</li>
+            <li><strong>Assistant Stage and Production Manager</strong>, Iloilo Dinagyang Festival (2023)</li>
+            <li><strong>Assistant Technical Director and Production Manager</strong>, USA Little Theater (2022 - 2023)</li>
+        </ul>
+    </section>
+
+    <section class="awards">
+        <h2>Awards and Recognition</h2>
+        <ul>
+            <li><strong>College</strong>: Top Academic Awardee & Leadership Awardee (2023 - 2024)</li>
+            <li><strong>Senior High School</strong>: With Honors Awardee (2019 - 2020)</li>
+        </ul>
+    </section>
+
+    <section class="seminars">
+        <h2>Seminars, Webinars, and Training</h2>
+        <ul class="seminars-list">
+            <li>BYTE 2025: Building Young Tech Experts for the Smarter Future - May 2025</li>
+            <li>AI At Work: Innovation Shaping Everyday Life - March 2025</li>
+            <li>Introduction to C++ - May 2025 (Sololearn.com)</li>
+            <li>Introduction to C - September 2024 (Sololearn.com)</li>
+            <li>NSTEP Visayas Webinar Series: Webinar on Research Publish - October 2024</li>
+            <li>AI Fundamentals with IBM Skills Build - November 2024 (Cisco Networking Academy)</li>
+            <li>Web3 for Dummies: A Layman's Introduction to the Decentralized Web - May 2024</li>
+            <li>Website Development For E-Portfolio - September 2023</li>
+            <li>Internet of Things and Smart City - May 2023 (Online Webinar)</li>
+        </ul>
+    </section>
+
+    <section class="references">
+        <h2>References</h2>
+        <div class="references-block">
+            <p><strong>Engr. Glenda S. Guanzon</strong><br />
+            Assistant Professor 1<br />
+            Professional Computer Engineer<br />
+            University of San Agustin - Iloilo</p>
+
+            <p><strong>Mr. Eric Divinagracia</strong><br />
+            Director - Student Affairs and Welfare<br />
+            Artistic Director - USA Little Theater<br />
+            University of San Agustin - Iloilo</p>
+
+            <p><strong>Mrs. Anna Marie S. Villa</strong><br />
+            Principal<br />
+            Pax Catholic Academy, Diocese of Bacolod Inc. - La Carlota City</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Ethel Herna C. Pabito - All rights reserved.</p>
+    </footer>
+</body>
+</html>
